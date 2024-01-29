@@ -61,6 +61,21 @@ nav {
 	font-weight: 500;
 }
 
+#imgBox{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1s;
+}
+
+#imgBox img{
+	width : 67%;
+	padding: 10px;
+}
+
+#imgBox.show-img{
+	max-height:50%;
+}
+
 button {
 	margin-top: 18px;
 	margin-bottom: 25px;
