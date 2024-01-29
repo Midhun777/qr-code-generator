@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>QR Code Generator</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav>
+		<div class="img-div">
+			<img src="./github-logo.png" alt="github-logo.png" width="60%" class="logo">
+		</div>
+		<div class="txt-div">
+			<p class="logo-txt">QR code generator</p>
+		</div>
+	</nav>
+
+	<div class="cont">
+		<div class="container">
+			<p class="enter">Enter your text</p>
+			<input type="text" placeholder="Text or Url" id="qrText">
+
+			<div id="imgBox" class="qr">
+				<center>
+					<img src="" id="qrImage">
+				</center>
+			</div>
+
+			<center>
+				<button type="submit" onclick="generateQr()">Generate QR code</button>
+			</center>
+
+		</div>
+
+	</div>
+
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
