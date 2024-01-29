@@ -25,24 +25,13 @@ nav {
 	justify-content: center;
 }
 
-.logo{
+.logo {
 	position: absolute;
 	left: 10px;
-	top : 20px;
-
- }
-/*.txt-div {
-	height: 100%;
-	width: 85%;
-	text-align: center;
-}
-
-.logo-txt {
-	margin-right: 40px;
-
+	top: 20px;
 
 }
-*/
+
 .cont {
 	display: flex;
 	justify-content: center;
@@ -83,7 +72,16 @@ button {
 	width: 60%;
 	background-color: #323232;
 	color: #FADF6E;
+	transition-duration: 0.4s;
+}
 
+button:hover {
+	background-color: #3C3C3C;
+}
+
+button:active {
+	background-color: #3C3C3C;
+	transform: translateY(1px);
 }
 
 input {
@@ -97,5 +95,4 @@ input {
 .qr {
 	margin-top: 15px;
 	border-radius: 5px;
-
 }
