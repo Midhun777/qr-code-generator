@@ -2,15 +2,15 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-size: 15pt;
-	background-color: #41436A;
+	background-color: #FADF6E;
 	font-family: roboto;
 }
 
 nav {
 	width: 100%;
 	height: 60px;
-	background-color: #FE9577;
-	box-shadow: 1px 1px 3px black;
+	background-color: #FADF6E;
+	border-bottom: 1px solid black;
 	display: flex;
 	align-items: center;
 }
@@ -31,19 +31,18 @@ nav {
 
 .logo-txt {
 	margin-right: 20px;
-	font-weight: 500;
 	font-size: 20px;
 }
 
 .cont {
 	display: flex;
 	justify-content: center;
-	;
+	border:1px solid black;
 	align-items: center;
 	margin: auto;
 	padding: 0px;
 	margin-top: 70px;
-	background-color: white;
+	background-color: #F8F8F8;
 	width: 85%;
 	border-radius: 5px;
 
@@ -65,15 +64,16 @@ nav {
 }
 
 button {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 18px;
+	margin-bottom: 25px;
 	border: none;
 	background: none;
 	border-radius: 4px;
 	border: 1px solid black;
-	height: 30px;
-	width: 50%;
-	background-color: #1E88E5;
+	height: 40px;
+	width: 60%;
+	background-color: #323232;
+	color:#FADF6E;
 
 }
 
@@ -81,6 +81,7 @@ input {
 	height: 25px;
 	width: 90%;
 	border-radius: 4px;
+	border:1px solid black;
 
 }
 
