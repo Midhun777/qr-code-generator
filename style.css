@@ -61,19 +61,19 @@ nav {
 	font-weight: 500;
 }
 
-#imgBox{
+#imgBox {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 1s;
 }
 
-#imgBox img{
-	width : 67%;
+#imgBox img {
+	width: 67%;
 	padding: 10px;
 }
 
-#imgBox.show-img{
-	max-height:50%;
+#imgBox.show-img {
+	max-height: 50%;
 }
 
 button {
@@ -112,28 +112,39 @@ input {
 	border-radius: 5px;
 }
 
-.error{
-	animation : shake 0.1s linear 10;
+.error {
+	animation: shake 0.1s linear 10;
 }
 
-@keyframes shake{
-	0%{
+@keyframes shake {
+	0% {
 		transform: translateX(0);
 	}
-	
-	25%{
+
+	25% {
 		transform: translateX(-2px);
 	}
-	
+
 	50% {
 		transform: translateX(0);
 	}
-	
+
 	75% {
 		transform: translateX(2px);
 	}
-	
+
 	100% {
 		transform: translateX(0);
 	}
+}
+
+.mid {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 10px;
+	margin-top: 330px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
